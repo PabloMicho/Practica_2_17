@@ -1,0 +1,49 @@
+/*                                           */
+/* Pablo Michó Fernández                     */
+/*                                           */
+/* CSS ejercicio: Citas de Virgilio          */
+/*                                           */
+/* 21/01/2020                                */
+/*                                           */
+
+@font-face {
+    font-family: "Ribeye Marrow";
+    src: url("ribeye-marrow.woff2");
+  }
+
+@import url("http://fonts.googleapis.com/css?family=Just+Another+Hand");
+
+@import url("http://fonts.googleapis.com/css?family=Lobster");
+
+body {
+    background-color: goldenrod;
+  }
+  
+  h1 {
+    font-family: "Ribeye Marrow", cursive, sans-serif;
+    font-size: 50px;
+    letter-spacing: 25px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p.Introduccion {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: sans-serif;
+    line-height: 200%;
+    text-align: justify;
+  }
+  
+  p.Latin {
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+    font-size: 40px;
+  }
+  
+  p.Espanol {
+    color: white;
+    font-family: "Just Another Hand", sans-serif;
+    font-size: 60px;
+    text-align: right;
+  }
